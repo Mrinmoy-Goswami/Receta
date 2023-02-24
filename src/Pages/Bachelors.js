@@ -7,6 +7,7 @@ import { useState } from "react";
 import RecipeCard from "../Components/RecipeCard";
 import "./Homepage.css";
 import Typewriter from 'typewriter-effect';
+import  cat from "../assets/cat-beer.jpg"
 
 export default function Homepage() {
   const [title, setTitle] = useState("");
@@ -66,7 +67,7 @@ export default function Homepage() {
           placeholder="Search Cocktails here"
           aria-label="Search"
         />
-        <button onClick={ handleQuery} className="btn btn-outline-light" type="submit">
+        <button onClick={ handleQuery} className="btn btn-outline-light btn-dark" type="submit">
           Search{" "}
         </button>
       </div>
@@ -113,7 +114,9 @@ export default function Homepage() {
 
        
        <p style={{textAlign:"center",marginBottom:"20px",fontSize:"2.5vw"}}> We are coming with various recipes in Bachelor Style real soon !</p>
-      
+      <img src={cat} height="300px" 
+      style={{marginLeft:"30%"}}
+      />
     </div>
   );
 }

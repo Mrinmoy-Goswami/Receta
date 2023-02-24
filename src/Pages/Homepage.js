@@ -67,7 +67,7 @@ export default function Homepage() {
           placeholder="Search recipes here"
           aria-label="Search"
         />
-        <button onClick={ handleQuery} className="btn btn-outline-light" type="submit">
+        <button onClick={ handleQuery} className="btn btn-outline-light btn-dark" type="submit">
           Search{" "}
         </button>
       </div>
