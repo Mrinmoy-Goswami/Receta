@@ -1,0 +1,8 @@
+/* Styling of the various components. Not organised enough, Come on who reads css code  */
+#card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: #ecf24c; */
+   
+}
