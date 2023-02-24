@@ -3,3 +3,13 @@
     flex-direction: row;
     flex-wrap: wrap;
 }
+.search{
+    display: flex;
+    flex-direction: row;
+    margin-left:10%;
+    margin-right:10%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+
+
+}
