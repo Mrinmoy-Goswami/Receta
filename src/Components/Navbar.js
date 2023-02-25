@@ -18,6 +18,9 @@ export  function Navbar(props) {
         <li className="nav-item ">
           <Link className="nav-link mx-5" to="/Bachelors">Bachelor's Corner</Link>
         </li>
+        <li className="nav-item ">
+          <Link className="nav-link mx-5" to="/aboutus">About us</Link>
+        </li>
        
       </ul>
         {/* <div class="form-check form-switch mx-5 px-5 my-2">
